@@ -1,0 +1,78 @@
+body { 
+  background: url(background.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family:'Urbanist', sans-serif;
+     width: 700px;
+     border-radius: 2%;
+     padding: 100px;
+     margin: auto;
+} 
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+}
+header>h2{
+    color: chartreuse;
+    text-align: center;
+    font-family:'Urbanist', sans-serif;
+    
+}
+
+#pulsanti{
+    border:5px solid chartreuse;
+    background-size: contain;
+    background-color:chartreuse;
+    text-align: center;
+    font-size: 5px;
+  display: block;
+  
+}
+
+.check{
+    display: inline-block;
+    font-size: 16px;
+}
+.address>p::before{
+    content:"\21A6";
+}
+
+.address{
+    font-size: 12px;
+    line-height: 0cm;
+}
+
+.carica{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: block;
+    font-size: 12px;
+
+}
+.button-wrapper{
+    font-size: 12px;
+}
+
+.carica1{
+    background-color: orange;
+   width: 250px;
+}
+.carica2{
+    background-color: chartreuse;
+    width: 50%;
+}
+.carica3{
+    background-color: red;
+    width: 25%;
+}
+
+   
