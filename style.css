@@ -1,78 +1,93 @@
-body { 
-  background: url(background.jpg) no-repeat center fixed; 
+body {
+  background: url(background.jpg) no-repeat center fixed;
   background-size: cover;
 }
-.container{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-family:'Urbanist', sans-serif;
-     width: 700px;
-     border-radius: 2%;
-     padding: 100px;
-     margin: auto;
-} 
 
-.logo{
-    display: block;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    text-align: center;
-}
-header>h2{
-    color: chartreuse;
-    text-align: center;
-    font-family:'Urbanist', sans-serif;
-    
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  width: 700px;
+  border-radius: 2%;
+  padding: 100px;
+  margin: auto;
 }
 
-#pulsanti{
-    border:5px solid chartreuse;
-    background-size: contain;
-    background-color:chartreuse;
-    text-align: center;
-    font-size: 5px;
+.logo {
   display: block;
-  
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
 }
 
-.check{
-    display: inline-block;
-    font-size: 16px;
-}
-.address>p::before{
-    content:"\21A6";
+header > h2 {
+  color: chartreuse;
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
 }
 
-.address{
-    font-size: 12px;
-    line-height: 0cm;
+#Pulsanti {
+  border: 5px solid chartreuse;
+  background-size: contain;
+  background-color: chartreuse;
+  text-align: center;
+  font-size: 5px;
+  display: block;
 }
 
-.carica{
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
+.monopattino {
     display: block;
-    font-size: 12px;
-
-}
-.button-wrapper{
-    font-size: 12px;
+    margin-top: 20px;
 }
 
-.carica1{
-    background-color: orange;
-   width: 250px;
+
+.check {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
-.carica2{
-    background-color: chartreuse;
-    width: 50%;
+
+.address > p::before {
+  content: "\21A6";
 }
-.carica3{
-    background-color: red;
-    width: 25%;
+
+.address {
+  font-size: 12px;
+  line-height: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.carica {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: block;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.button-wrapper {
+  font-size: 12px;
+}
+
+.carica1 {
+  background-color: orange;
+  width: 250px;
+}
+
+.carica2 {
+  background-color: chartreuse;
+  width: 50%;
+}
+
+.carica3 {
+  background-color: red;
+  width: 25%;
 }
 
    
